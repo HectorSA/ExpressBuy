@@ -1,17 +1,15 @@
-﻿#itemSelector {
+﻿#itemSelection {
     width: 120px;
     border: 1px solid #c3c3c3;
     display: inline-block;
     -webkit-align-content: center;
     align-content: center;
+    margin-left: 5%;
+    margin-top: 5%;
 }
 
-#centerStage {
-    margin-top: 20px;
-    margin-left: 30px;
-}
 
-#itemSelector div {
+#itemSelection div {
     padding-top: 25px;
     width: 120px;
     height: 80px;
@@ -20,17 +18,21 @@
 }
 
 
+#rightOfItems {
+    display: inline-block;
+    margin-top: 5%;
+    margin-left: 30%;
+    vertical-align: top;
+}
 
 #welcomeName {
-    width:20%;
-    display: inline-block;
-    vertical-align: top; /* here */
-    height: 10px
+ 
 }
 
 #imageCarousel {
 
-    width: 50%;
-    height: 50%;
+    text-align:center;
+    height: 200px;
+
     border: solid black 1px;
 }

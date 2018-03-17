@@ -1,0 +1,1 @@
+var expressBuyApp = angular.module('expressBuyApp', []);

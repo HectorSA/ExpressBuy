@@ -1,5 +1,5 @@
 <div id="itemSelection" ng-controller="indexController">
-    <div class="col-xs-1" align="center" ng-repeat="item in products" ng-click="changeView(item.name)">
+    <div class="col-xs-1" align="center" ng-repeat="item in categories" ng-click="changeView('search/'+item.name)">
         <span>
             {{ item.name }}
         </span>

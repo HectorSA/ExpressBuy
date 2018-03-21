@@ -19,6 +19,11 @@ indexApp.config(function ($routeProvider) {
             controller: 'searchController'
         })
 
+        .when('/addItem', {
+            templateUrl: 'app/aiService/addItem.html',
+            controller: 'addItemController'
+        })
+
 });
 
 
@@ -78,3 +83,6 @@ indexApp.controller('searchController', function ($scope, $routeParams, $filter)
     $scope.itemsFS = result;
 });
 
+indexApp.controller('addItemController', function ($scope,aiService) {
+    $scope.addItem = aiService.item;
+});

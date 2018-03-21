@@ -31,7 +31,7 @@ productsCategories = [
 productsForSale = [
     { category: 'SSD Drives', name: 'Samsung 860 pro', specs: 'Read/Write: 500/500gbps' },
     { category: 'SSD Drives', name: 'Samsung 850 pro', specs: 'Read/Write: 400/400gbps' },
-    { category: 'Monitors', name: 'xxElITESnipeRMonitor', specs: '240hz 1ms response' }
+    { category: 'Monitors', name: 'xxElITESnipeRMonitorxx', specs: '240hz 1ms response' }
 ];
 
 
@@ -51,14 +51,30 @@ indexApp.controller('searchController', function ($scope, $routeParams, $filter)
     
     searchCategory = $routeParams.searchedItem;
 
+
+    // See if the search finds a match in the product category
     var result = $filter('filter')(productsForSale,
         { category: searchCategory },
-        true,
     );
+
+    // If there is no match look for a match in product name
+    if (result.length === 0) {
+        var result = $filter('filter')(productsForSale,
+            { name: searchCategory }
+        );
+    };
+
+    // If there is no match look for a match in product specs
+    if (result.length === 0) {
+        var result = $filter('filter')(productsForSale,
+            { specs: searchCategory }
+        );
+    };
+
 
     console.log(result);
     console.log(searchCategory);
-
+    console.log(result.length);
     $scope.itemsFS = result;
 });
 

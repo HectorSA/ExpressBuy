@@ -11,10 +11,10 @@
     <script src="index.js"></script>
 </head>
 <body ng-app="indexApp">
-    <nav class="navbar navbar-light bg-light">
+    <nav class="navbar navbar-light bg-light" ng-controller="indexController">
         <form class="form-inline">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" ng-model="searchBarText">
+            <button class="btn btn-outline-success my-2 my-sm-0" ng-click="changeView('search/'+searchBarText)">Search</button>
         </form>
 
         <div class="pull-right">

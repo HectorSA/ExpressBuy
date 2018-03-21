@@ -13,6 +13,7 @@
 <body ng-app="indexApp">
     <nav class="navbar navbar-light bg-light" ng-controller="indexController">
         <form class="form-inline">
+            <img ng-click="changeView('/')" style="margin-right:10px;"src="imgs/home.png" height="30" width="30">
             <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" ng-model="searchBarText">
             <button class="btn btn-outline-success my-2 my-sm-0" ng-click="changeView('search/'+searchBarText)">Search</button>
         </form>

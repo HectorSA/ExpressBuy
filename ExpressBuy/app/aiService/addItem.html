@@ -1,43 +1,26 @@
-<form role="form" >
+<form role="form" class="container">
 
-    <div class="form-group">  
-        <label for="fullName">Name</label>  
-        <input type="text" id="fullName" class="form-control" />  
-    </div>  
-    <div class="form-group">  
-        <label for="objective">Objective</label>  
-        <textarea name="objective" id="objective" class="form-control" rows="5" cols="40"></textarea>  
-    </div>  
+    <div class="form-group">
+        <label for="fullName">Name</label>
+        <input type="text" id="fullName" class="form-control" />
+    </div>
 
-    <div class="form-group" ng-controller="addItemController">  
-        <label for="department">Department</label>  
-        <select ng-model="selectedItem" class="form-control">
-            <option ng-repeat="category in categories" value="{{category.name}}">{{category.name}}</option>
+    <div class="form-group" ng-controller="addItemController">
+        <label for="category">Category</label>
+
+        <select ng-model="selectedItem" ng-options="category as category.name for category in categories track by category.name" ng-selected="$first" class="form-control">
+            <option value="">-- Select Category --</option>
         </select>
+    </div>
 
-    </div>  
-    <br />  
-  
-    <span><b>Hobbies</b></span><br />  
-    <div class="checkbox">  
-        <label><input type="checkbox" value="hobbiesTravel" />Travelling</label>  
-    </div>  
-    <div class="checkbox">  
-        <label><input type="checkbox" value="hobbiesPhotography" />Photography</label>  
-    </div>  
-    <div class="checkbox">  
-        <label><input type="checkbox" value="hobbiesGaming" />Gaming</label>  
-    </div>  
-    <br />  
-  
-    <span><b>Gender</b></span><br />  
-    <div class="radio">  
-        <label><input type="radio" name="gender" value="male" /> Male</label><br />  
-    </div>  
-    <div class="radio">  
-        <label><input type="radio" name="gender" value="female" /> Female</label><br />  
-    </div>  
-    <br />  
-  
-    <input type="submit" class="btn btn-primary" value="Submit" />  
+    <div class="form-group">
+        <label for="details">Details</label>
+        <textarea name="details" id="details" class="form-control" rows="5" cols="40"></textarea>
+    </div>
+
+
+    <br />
+
+
+    <input type="submit" class="btn btn-primary" value="Submit" />
 </form>  

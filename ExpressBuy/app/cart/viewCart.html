@@ -1,0 +1,24 @@
+<div class="container " ng-controller="viewCartController">
+
+    <div id="cartCenterBox">
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th scope="col">Item</th>
+                    <th scope="col">Cost</th>
+ 
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr ng-repeat="item in cartItems">
+                    <td style="width:80%"> {{ item.name }} </td>
+                    <td> {{ item.price }} </td>
+                </tr>
+
+            </tbody>
+        </table>
+    </div>
+
+
+</div>

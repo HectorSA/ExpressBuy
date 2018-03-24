@@ -66,4 +66,3 @@ productsForSale = [
     },
 ];
 
-cart = [1, 6]

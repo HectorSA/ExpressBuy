@@ -24,6 +24,11 @@ indexApp.config(function ($routeProvider) {
             controller: 'addItemController'
         })
 
+        .when('/cart', {
+            templateUrl: 'app/cart/viewCart.html',
+            controller: 'viewCartController'
+        })
+
 });
 
 
@@ -72,4 +77,28 @@ indexApp.controller('searchController', function ($scope, $routeParams, $filter)
 indexApp.controller('addItemController', function ($scope) {
     $scope.categories = productsCategories;
     console.log(productsCategories);
+});
+
+fauxcart = [1, 6];
+
+indexApp.controller('viewCartController', function ($scope, $filter) {
+    // See if the search finds a match in the product category
+    var result = $filter('filter')(productsForSale,
+        { id: fauxcart},
+    );
+
+    cartItemArray = [];
+
+    for (var i = 0; i < fauxcart.length; i++) {
+        var result = $filter('filter')(productsForSale,
+            { id: fauxcart[i] },
+        );
+        console.log(result)
+        cartItemArray.push(result[0]);
+    }
+
+
+    console.log(cartItemArray);
+
+    $scope.cartItems = cartItemArray;
 });

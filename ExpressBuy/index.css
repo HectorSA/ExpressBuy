@@ -46,8 +46,15 @@
     -webkit-border-radius: 34px;
     -moz-border-radius: 34px;
     border-radius: 34px;
-    height: 400px;
+    height: 420px;
     width: 300px;
     border: black solid 1px;
     white-space: pre-wrap;
+}
+
+#cartCenterBox {
+    border: black solid 1px;
+    width : 900px;
+    height : 800px;
+    padding: 10px;
 }

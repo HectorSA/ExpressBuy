@@ -2,11 +2,12 @@
 <div class="container " ng-controller="searchController">
 
     <div class="cardDiv" ng-repeat="item in itemsFS ">
-        <img src= {{item.img}} width="200" height="150">
+        <img ng-src={{item.img}} width="200" height="150">
         {{ item.name }}
         {{ item.price }}
         {{ item.specs }}
-        
+        <br />
+        <input type="submit" class="btn btn-warning" value="Add to Cart" />
     </div>
 </div>
 

@@ -29,6 +29,15 @@ indexApp.config(function ($routeProvider) {
             controller: 'viewCartController'
         })
 
+        .when('/checkout', {
+            templateUrl: 'app/checkout/checkout.html',
+            controller: 'checkoutController'
+        })
+
+
+
+    
+
 });
 
 
@@ -103,5 +112,35 @@ indexApp.controller('viewCartController', function ($scope, $filter, $location) 
 
     console.log(cartItemArray);
 
+    $scope.cartItems = cartItemArray;
+});
+
+indexApp.controller('checkoutController', function ($scope, $filter) {
+    // See if the search finds a match in the product category
+    var result = $filter('filter')(productsForSale,
+        { id: fauxcart },
+    );
+
+    cartItemArray = [];
+    cartTotal = 0;
+
+    for (var i = 0; i < fauxcart.length; i++) {
+        var result = $filter('filter')(productsForSale,
+            { id: fauxcart[i] },
+        );
+        console.log(result);
+        cartItemArray.push(result[0]);
+
+        // Get the cost amount from the item
+        itemAmount = result[0].price
+
+        // Cost is a string so we got to convert to int
+        itemDollar = Number(itemAmount.replace(/[^0-9\.-]+/g, ""));
+
+        cartTotal += itemDollar;
+    }
+
+
+    $scope.cartT = cartTotal;
     $scope.cartItems = cartItemArray;
 });

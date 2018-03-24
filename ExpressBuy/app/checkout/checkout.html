@@ -1,0 +1,54 @@
+<div>
+    <div id="checkoutBox">
+        <h1 style="text-align:center">Checkout</h1>
+        <div id="checkoutItemBox">
+            <h3 style="text-align:center">Order</h3>
+            <table class="table table-bordered cartTable">
+                <thead>
+                    <tr>
+                        <th scope="col">Item</th>
+                        <th scope="col">Cost</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr ng-repeat="item in cartItems">
+                        <td style="width:80%"> {{ item.name }} </td>
+                        <td> {{ item.price }} </td>
+                    </tr>
+
+                </tbody>
+            </table>
+
+        </div>
+
+        <div id="checkoutTotalBox">
+            <h3 style="text-align:center">Item total</h3>
+            <table class="table table-bordered cartTable">
+   
+
+                <tbody>
+                    <tr>
+                        <td>Cost</td>
+                        <td> ${{ cartT }} </td>
+                    </tr>
+
+                    <tr>
+                        <td>tax</td>
+                        <td> ${{ cartT * .0825 | number:2}} </td>
+                    </tr>
+
+                    <tr>
+                        <td>Total cost</td>
+                        <td> ${{ cartT * 1.0825 | number:2}} </td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </div>
+        <div id="cartButtons">
+            <button style="width:40%" type="button" class="btn btn-warning">Place order</button>
+        </div>
+    </div>
+
+</div>

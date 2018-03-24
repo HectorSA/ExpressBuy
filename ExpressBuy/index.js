@@ -55,6 +55,12 @@ indexApp.controller('searchController', function ($scope, $routeParams, $filter)
     
     searchCategory = $routeParams.searchedItem;
 
+    $scope.addToCart = function addTC(itemID) {
+        fauxcart.push(itemID);
+        console.log(fauxcart);
+        console.log(itemID)
+    }
+
 
     // See if the search finds a match in the product category
     var result = $filter('filter')(productsForSale,
@@ -76,6 +82,7 @@ indexApp.controller('searchController', function ($scope, $routeParams, $filter)
     };
 
     $scope.itemsFS = result;
+
 });
 
 indexApp.controller('addItemController', function ($scope) {
@@ -83,7 +90,6 @@ indexApp.controller('addItemController', function ($scope) {
     console.log(productsCategories);
 });
 
-fauxcart = [1, 6];
 
 indexApp.controller('viewCartController', function ($scope, $filter, $location) {
     // See if the search finds a match in the product category

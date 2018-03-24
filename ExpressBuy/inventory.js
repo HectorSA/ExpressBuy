@@ -66,3 +66,4 @@ productsForSale = [
     },
 ];
 
+var fauxcart = [1, 6];

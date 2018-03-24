@@ -12,7 +12,7 @@
             </thead>
 
             <tbody>
-                <tr ng-repeat="item in cartItems">
+                <tr ng-repeat="item in cartItems track by $index">
                     <td style="width:80%"> {{ item.name }} </td>
                     <td> {{ item.price }} </td>
                     <td style="text-align: center"> X</td>

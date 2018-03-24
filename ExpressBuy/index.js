@@ -91,7 +91,26 @@ indexApp.controller('addItemController', function ($scope) {
 });
 
 
-indexApp.controller('viewCartController', function ($scope, $filter, $location) {
+indexApp.controller('viewCartController', function ($scope, $filter, $location, $route) {
+
+    $scope.reloadRoute = function () {
+        $route.reload();
+    }
+
+    $scope.isEmpty = function () {
+        if (fauxcart.length > 0) {
+            return false; 
+        } else { // If empty disable = true
+            return true;
+        }
+    }
+  
+
+    $scope.removeFromCart = function removeFC(itemID) {
+        index = fauxcart.indexOf(itemID);
+        if (index !== -1) fauxcart.splice(index, 1);
+    }
+
     // See if the search finds a match in the product category
     var result = $filter('filter')(productsForSale,
         { id: fauxcart},

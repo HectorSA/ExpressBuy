@@ -15,14 +15,14 @@
                 <tr ng-repeat="item in cartItems track by $index">
                     <td style="width:80%"> {{ item.name }} </td>
                     <td> {{ item.price }} </td>
-                    <td style="text-align: center"> X</td>
+                    <td style="text-align: center" ng-click="removeFromCart(item.id); reloadRoute()" > X </td>
                 </tr>
 
             </tbody>
         </table>
         <div id="cartButtons">
             <button ng-click="changeView('/')" style="width:40%" type="button" class="btn btn-info">Continue Shopping</button>
-            <button ng-click="changeView('/checkout')" style="width:40%"type="button" class="btn btn-warning">Checkout</button>
+            <button data-ng-disabled="isEmpty()" ng-click="changeView('/checkout')" style="width:40%"type="button" class="btn btn-warning">Checkout</buttondata-ng-disabled="checkQuestions()">
         </div>
     </div>
 </div>

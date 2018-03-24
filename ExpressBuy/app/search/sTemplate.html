@@ -1,7 +1,11 @@
-<div id="itemSelection" ng-controller="searchController">
-    <div class="col-xs-1" align="center" ng-repeat="item in itemsFS ">
-        <span>
-            {{ item.name }}
-        </span>
+
+<div class="container " ng-controller="searchController">
+
+    <div class="cardDiv" ng-repeat="item in itemsFS ">
+        <img src= {{item.img}} width="200" height="150">
+        {{ item.name }}
+        {{ item.price }}
+        {{ item.specs }}
     </div>
 </div>
+

@@ -1,0 +1,530 @@
+SSD Drives: 
+
+Best - 
+Toshiba OCZ VX500 1TB
+
+PRICE:
+
+$349.99
+
+SPECS:
+
+Performance:
+Sequential Read/Write6
+128GB: Up to 550/485 MB/s
+
+256GB: Up to 550/510 MB/s
+
+512GB: Up to 550/515 MB/s
+
+1024GB: Up to 550/515 MB/s
+
+Random Read/Write7 (4KiB, QD32)
+128GB: Up to 62,000/49,0000 IOPS
+
+256GB: Up to 90,000/58,0000 IOPS
+
+512GB: Up to 92,000/64,0000 IOPS
+
+1024GB: Up to 92,000/65,0000 IOPS
+
+Endurance:
+TBW (Total Bytes Written)8
+128GB: 74 TB
+
+256GB: 148 TB
+
+512GB: 296 TB
+
+1024GB: 592 TB
+
+Daily Usage Guideline9
+128GB: 40 GB/day
+
+256GB: 81 GB/day
+
+512GB: 162 GB/day
+
+1024GB: 324 GB/day
+
+Physical
+Capacities
+128GB, 256GB, 512GB, 1024GB
+
+NAND Flash Memory Type
+MLC
+
+Interface
+Serial ATA (SATA) 6 Gbit/s
+
+Form Factor
+2.5-inch, 7mm height
+
+Dimension (L x W x H)
+100.00 x 69.85 x 7.00 mm
+
+Drive Weight
+128GB, 256GB: 49 g (typ.)
+512GB: 52 g (typ.)
+1024GB: 54 g (typ.)
+
+Power Requirements
+Supply Voltage
+5V ±5 %
+
+Power Consumption
+Active
+Up to 3.6 W (typ.)
+
+Idle
+128GB, 256GB, 512GB: 125 mW (typ.)
+1024GB: 260 mW (typ.)
+
+DevSleep Power
+128GB, 256GB, 512GB: 5 mW max
+
+Environmental
+Operating Temperature (Tc)
+0°C to 70°C
+
+Storage Temperature
+-40°C to 85°C
+
+Shock Resistance
+14.7 km/s2 {1500 G} (0.5 ms)
+
+Vibration
+196 m/s2 {20 Grms} (Peak, 10 to 2,000 Hz)
+
+Certifications
+CE, BSMI, RCM, KCM, UL
+
+Reliability / Security
+MTTF
+1.5 Mhours
+
+Product Health Monitoring
+Self-Monitoring, Analysis and Reporting Technology (SMART) Support
+
+Compatibility
+Serial ATA (SATA)
+ATA/ATAPI Command Set-2 (ACS-2) and Serial ATA revision 3.1 interface specifications supported
+
+Operating System10
+Windows® 10 x64, Windows® 8.1 x64, Windows® 7 x64;
+Linux® Fedora x64 22, 23; Mint x64 17, 17.1, 17.2, 17.3; Ubuntu Server 16.04 LTS;
+Mac® OS X® 10.9, 10.10, 10.11.4
+
+Connector Type
+Standard SATA Power Connector
+
+Targeted Applications
+Client desktops and laptops
+
+
+
+Economy - 
+SanDisk SSD PLUS 2.5" 240GB SATA III MLC Internal Solid State Drive (SSD) SDSSDA-240G-G26
+
+
+PRICE:
+
+$120.10
+
+SPECS:
+Technical Details
+Collapse all
+Summary
+Hard Drive	240 GB SSD
+Other Technical Details
+Brand Name	SanDisk
+Series	SDSSDA-240G-G25
+California residents	Click here for Proposition 65 warning
+Item model number	SDSSDA-240G-G25
+Hardware Platform	PC
+Item Weight	10.2 ounces
+Product Dimensions	4 x 0.3 x 2.8 inches
+Item Dimensions L x W x H	3.96 x 0.28 x 2.75 inches
+Flash Memory Size	240
+Hard Drive Interface	Serial ATA-600
+
+
+Monitors:
+
+Best - 
+BenQ PD3200U
+
+PRICE:
+
+$799.99
+
+SPECS:
+
+Main Specifications
+Screen Size	
+32
+Resolution (max.)	
+3840x2160
+
+All Specifications:
+
+Display:
+Screen Size	
+32
+Panel Type	
+IPS
+Backlight Technology	
+LED backlight
+Resolution (max.)	
+3840x2160
+Brightness	
+350 cd/㎡
+Native Contrast(typ.)	
+1000:1
+Viewing Angle (L/R;U/D) (CR>=10)	
+178/178
+Response Time	
+4ms (GtG)
+Refresh Rate	
+60Hz
+Aspect Ratio	
+16:9
+Display Colors	
+1.07 billion colors
+Color Gamut	
+100% sRGB/Rec. 709
+Display Area(mm)	
+708.4(H) x 398.5(V)
+Pixel Pitch (mm)	
+0.1845
+PPI	
+137.68
+DCR (Dynamic Contrast Ratio) (typ.)	
+20M:1
+Color Bit	
+10bits
+
+Audio:
+Built-in Speaker	
+5Wx2
+Headphone Jack	
+Yes
+Audio Line In	
+Yes
+
+Monitor:
+Product Color	
+Gray/Glossy gray
+Picture Mode	
+REC.709 / sRGB / CAD/CAM / Animation / Standard / Low Blue Light / Dark Room / User
+Gamma	
+1.8 - 2.6
+OSD Language	
+18 Languages  - English, French, Deutsch, Italiano, Spanish, Polish, Czech, Hungarian, Korean, Romanian, Netherlands, Russian, Swedish, Portuguese, Japanese, Chinese (traditional), Chinese (simplified), Arabic
+PIP/PBP	
+Yes
+HDCP	
+2.2
+VESA Wall Mount	
+Yes
+AMA	
+Yes
+Display Screen Coating	
+Anti-Glare
+
+Eye Care:
+Flicker-free Technology	
+Yes
+Low Blue Light	
+Yes
+
+Professional:
+Animation mode	
+Yes
+CAD/CAM mode	
+Yes
+Eye Protector	
+Yes
+ECO sensor	
+Yes
+Video Format Support	
+Yes
+KVM Switch	
+Yes
+DualView	
+Yes
+Darkroom mode	
+Yes
+Auto Pivot	
+Yes
+Hotkey Puck	
+Yes
+Factory Calibration Report	
+Yes
+
+Connectivity:
+HDMI	
+HDMI (v2.0)x2
+DisplayPort	
+DisplayPort (v1.2) x1
+Mini DisplayPort	
+MiniDisplayPort (ver1.2)x1
+USB 3.0 Hub	
+USB Downstream x 4
+USB 3.0 Hub	
+USB Upstream x 1
+Card Reader	
+SD/MMC type
+
+Support Format: SD/SDHC/SDXC/MMC  
+
+Power:
+Voltage Rating	
+100 - 240V
+Power Supply	
+Built-in
+Power Consumption (on mode.)	
+110W
+Power Consumption (based on Energy Star)	
+44W
+Power Consumption (stand by mode)	
+0.5W
+Power Consumption (sleep mode)	
+0.5W
+AC Switch	
+Yes
+
+Dimension and Weight:
+Dimensions (HxWxD mm) (w/o Base)	
+436.4 x 740.3 x 65.6
+Dimensions (HxWxD mm)	
+H: 640.2 x 740.3 x 213.4
+
+L: 490.2 x 740.3 x 213.4
+
+CTN Dimensions (HxWxD mm)	
+840 x 187 x 690
+Net Weight (kg) (without stand)	
+8.5kg
+Net Weight (kg)	
+12.5kg
+Gross Weight (kg)	
+15.8kg
+Tilt (down/up)	
+-5˚ - 20˚
+Swivel (left/right)	
+45˚/45˚
+Pivot	
+90˚
+Height Adjustment (mm)	
+150
+
+Software:
+Display Pilot	
+Yes
+
+Environmental Standards:
+Energy Star	
+7.0
+EPEAT	
+Sliver
+
+Compliant Standards:
+TCO	
+7.0
+
+Certification:
+Mac Compatible	
+Yes
+Windows® Compatible	
+Windows®10, Windows®8.1, Windows®8, Windows®7
+Technicolor	
+Yes
+Solidworks	
+Yes
+
+
+Economy -  
+Asus VH238H 23" Full HD Display
+
+PRICE:
+
+$139.99
+
+SPECS:
+
+Display:
+Panel Size: Wide Screen 23.0"(58.4cm) 16:9
+True Resolution : 1920x1080
+Full HD 1080P : Yes
+Pixel Pitch : 0.2652mm
+Brightness(Max) : 250 cd/㎡
+ASUS Smart Contrast Ratio (ASCR) : 50000000:1
+Viewing Angle (CR≧10) : 170°(H)/160°(V)
+Response Time : 2ms (Gray to Gray)
+Display Colors : 16.7M
+
+Video Feature:
+Trace Free Technology
+SPLENDID Video Intelligence Technology
+SPLENDID Video Preset Modes : 6 Modes 
+Skin-Tone Selection : 3 Modes
+Color Temperature Selection : 4 Modes
+HDCP support
+
+Audio Features:
+Stereo Speakers : 2W x 2 Stereo RMS
+
+Convenient Hotkey:
+SPLENDID Video Preset Mode Selection
+Auto. Adjustment
+Brightness Adjustment
+Contrast Adjustment
+Volume Adjustment
+Input Selection
+
+I/O Ports:
+Signal Input : HDMI 1.3, D-Sub, DVI-D
+PC Audio Input : 3.5mm Mini-Jack 
+AV Audio Input : 1.3
+Earphone jack : 3.5mm Mini-Jack
+
+Signal Frequency:
+Analog Signal Frequency : 31~79 KHz(H)/ 56~75 Hz(V)
+Digital Signal Frequency : 31~79 KHz(H)/ 56~75 Hz(V)
+
+Power Consumption:
+Power ON : < 23.1W*
+Power Saving Mode: < 0.5W
+Power Off Mode : < 0.5W
+
+Mechanical Design:
+Chassis Colors : Black
+Tilt : +20°~-5°
+VESA Wall Mounting : 100x100mm
+
+Security:
+Kensington lock
+
+Dimensions:
+Phys. Dimension with Stand(WxHxD) : 550.2x415.4x220 mm
+Box Dimension(WxHxD) : 620x475x170 mm
+
+Weight:
+Net Weight (Esti.) : 4.3kg
+Gross Weight (Esti.) : 6.2kg
+
+Accessories:
+DVI cable
+VGA cable
+Audio cable
+Power cord
+Quick start guide
+Warranty Card
+
+Compliance and Standards:
+BSMI, CB, CCC, CE, C-Tick, ErP, FCC, Gost-R, J-MOSS, PSB, RoHS, UL/cUL, VCCI, WEEE, WHQL (Windows 7)
+
+Note:
+*Based on Energy Star 6.0 standard
+
+
+
+Graphics Card:
+
+Best - 
+GeForce GTX 1080 Ti
+
+PRICE:
+
+$699.00
+
+SPECS:
+
+GPU Engine Specs:
+3584NVIDIA CUDAÆ Cores
+1582Boost Clock (MHz)
+Memory Specs:
+11 GbpsMemory Speed
+11 GB GDDR5XStandard Memory Config
+352-bitMemory Interface Width
+484Memory Bandwidth (GB/sec)
+Technology Support:
+YesSimultaneous Multi-Projection
+YesVR Ready
+YesNVIDIA Ansel
+Yes - SLI HB Bridge SupportedNVIDIA SLIÆ Ready1
+YesNVIDIA G-SYNCô-Ready
+YesNVIDIA GameStreamô-Ready
+3.0NVIDIA GPU Boostô
+12 API with feature level 12_1Microsoft DirectX
+YesVulkan API
+4.5OpenGL
+PCIe 3.0Bus Support
+Windows 7-101, Linux, FreeBSDx86OS Certification
+Display Support:
+7680x4320@60HzMaximum Digital Resolution2
+DP 1.43, HDMI 2.0bStandard Display Connectors
+YesMulti Monitor
+2.2HDCP
+Graphics Card Dimensions:
+4.376"Height
+10.5"Length
+2-SlotWidth
+Thermal and Power Specs:
+91Maximum GPU Temperature (in C)
+250 WGraphics Card Power (W)
+600 WRecommended System Power (W)4
+One 6-pin, One 8-pin Supplementary Power Connectors
+
+Economy - 
+Nvidia GeForce GTX 1060
+
+PRICE:
+
+$299.00
+
+SPECS:
+
+GPU Engine Specs:
+3 GB6 GB 
+11521280NVIDIA CUDA® Cores
+15061506Base Clock (MHz)
+17081708Boost Clock (MHz)
+
+Memory Specs:
+8 Gbps8 GbpsMemory Speed
+3 GB GDDR56 GB GDDR5Standard Memory Config
+192-bit192-bitMemory Interface Width
+192192Memory Bandwidth (GB/sec)
+
+Technology Support:
+YesYesSimultaneous Multi-Projection
+YesYesVR Ready
+YesYesNVIDIA Ansel
+NoNoNVIDIA SLI® Ready
+YesYesNVIDIA G-SYNC -Ready
+YesYesNVIDIA GameStream -Ready
+3.03.0NVIDIA GPU Boost
+12 API with feature level 12_112 API with feature level 12_1Microsoft DirectX
+YesYesVulkan API
+4.54.5OpenGL
+PCIe 3.0PCIe 3.0Bus Support
+Windows 7-101, Linux, FreeBSDx86Windows 7-101, Linux, FreeBSDx86OS Certification
+
+Display Support:
+7680x4320@60Hz7680x4320@60HzMaximum Digital Resolution2
+DP 1.43, HDMI 2.0b, Dual Link-DVIDP 1.43, HDMI 2.0b, Dual Link-DVIStandard Display Connectors
+YesYesMulti Monitor
+2.22.2HDCP
+
+Graphics Card Dimensions:
+4.378"4.378"Height
+9.823"9.823"Length
+2-Slot2-SlotWidth
+
+Thermal and Power Specs:
+9494Maximum GPU Temperature (in C)
+120 W120 WGraphics Card Power (W)
+400 W400 WRecommended System Power (W)4
+6-Pin6-PinSupplementary Power Connectors

@@ -27,17 +27,7 @@ indexApp.config(function ($routeProvider) {
 });
 
 
-productsCategories = [
-    { name: 'SSD Drives' },
-    { name: 'Monitors' },
-    { name: 'Graphics Cards' }
-];
 
-productsForSale = [
-    { category: 'SSD Drives', name: 'Samsung 860 pro', specs: 'Read/Write: 500/500gbps' },
-    { category: 'SSD Drives', name: 'Samsung 850 pro', specs: 'Read/Write: 400/400gbps' },
-    { category: 'Monitors', name: 'xxElITESnipeRMonitorxx', specs: '240hz 1ms response' }
-];
 
 
 // Used on the index page
@@ -76,10 +66,6 @@ indexApp.controller('searchController', function ($scope, $routeParams, $filter)
         );
     };
 
-
-    console.log(result);
-    console.log(searchCategory);
-    console.log(result.length);
     $scope.itemsFS = result;
 });
 

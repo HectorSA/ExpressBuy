@@ -55,6 +55,30 @@
 #cartCenterBox {
     border: black solid 1px;
     width : 900px;
-    height : 800px;
+    height : auto;
     padding: 10px;
+}
+
+#viewCart {
+    color: blue;
+    font-size: large;
+    font-weight: 600;
+}
+
+#signOutIn {
+    color: blue;
+    font-size: large;
+    font-weight: 600;
+}
+
+.cartTable {
+    width: 80%;
+    align-content: center;
+    margin: auto;
+    margin-top: 30px;
+}
+
+#cartButtons {
+    margin-top: 30px;
+   text-align:center;
 }

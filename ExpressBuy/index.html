@@ -22,13 +22,15 @@
             <button class="btn btn-outline-success my-2 my-sm-0" ng-click="changeView('search/'+searchBarText)">Search</button>
         </form>
 
+
         <div class="pull-right">
-            Sign out View Cart
+            <span id="signOutIn">Sign out &nbsp &nbsp &nbsp</span>
+            <span id="viewCart" ng-click="changeView('cart/')">View Cart</span>
         </div>
     </nav>
 
 
-    <div id="main">
+    <div class="container " id="main">
 
         <!-- Where content will be injected-->
         <div ng-view></div>

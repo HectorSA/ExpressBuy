@@ -1,12 +1,13 @@
-<div class="container " ng-controller="viewCartController">
+<div>
 
     <div id="cartCenterBox">
-        <table class="table table-bordered">
+        <h1 style="text-align:center" >Viewing Shopping Cart</h1>
+        <table class="table table-bordered cartTable">
             <thead>
                 <tr>
                     <th scope="col">Item</th>
                     <th scope="col">Cost</th>
- 
+
                 </tr>
             </thead>
 
@@ -18,6 +19,10 @@
 
             </tbody>
         </table>
+        <div id="cartButtons">
+            <button  style="width:40%" type="button" class="btn btn-info">Continue Shopping</button>
+            <button style="width:40%"type="button" class="btn btn-warning">Checkout</button>
+        </div>
     </div>
 
 

@@ -1,5 +1,4 @@
 <div>
-
     <div id="cartCenterBox">
         <h1 style="text-align:center" >Viewing Shopping Cart</h1>
         <table class="table table-bordered cartTable">
@@ -7,6 +6,7 @@
                 <tr>
                     <th scope="col">Item</th>
                     <th scope="col">Cost</th>
+                    <th scope="col">Remove</th>
 
                 </tr>
             </thead>
@@ -15,15 +15,14 @@
                 <tr ng-repeat="item in cartItems">
                     <td style="width:80%"> {{ item.name }} </td>
                     <td> {{ item.price }} </td>
+                    <td style="text-align: center"> X</td>
                 </tr>
 
             </tbody>
         </table>
         <div id="cartButtons">
-            <button  style="width:40%" type="button" class="btn btn-info">Continue Shopping</button>
+            <button ng-click="changeView('/')" style="width:40%" type="button" class="btn btn-info">Continue Shopping</button>
             <button style="width:40%"type="button" class="btn btn-warning">Checkout</button>
         </div>
     </div>
-
-
 </div>

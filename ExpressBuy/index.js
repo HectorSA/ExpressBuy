@@ -81,7 +81,7 @@ indexApp.controller('addItemController', function ($scope) {
 
 fauxcart = [1, 6];
 
-indexApp.controller('viewCartController', function ($scope, $filter) {
+indexApp.controller('viewCartController', function ($scope, $filter, $location) {
     // See if the search finds a match in the product category
     var result = $filter('filter')(productsForSale,
         { id: fauxcart},
@@ -97,6 +97,9 @@ indexApp.controller('viewCartController', function ($scope, $filter) {
         cartItemArray.push(result[0]);
     }
 
+    $scope.changeView = function (view) {
+        $location.path(view);
+    }
 
     console.log(cartItemArray);
 

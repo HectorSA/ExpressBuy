@@ -30,17 +30,17 @@
                 <tbody>
                     <tr>
                         <td>Cost</td>
-                        <td> ${{ cartT | number:2}} </td>
+                        <td> ${{ cartT }} </td>
                     </tr>
 
                     <tr>
                         <td>tax</td>
-                        <td> ${{ cartT * .0825 | number:2}} </td>
+                        <td> ${{ cartTax }} </td>
                     </tr>
 
                     <tr>
                         <td>Total cost</td>
-                        <td> ${{ cartT * 1.0825 | number:2}} </td>
+                        <td> ${{ cartTotalWithTax }} </td>
                     </tr>
 
                 </tbody>

@@ -25,5 +25,7 @@
 
 
     $scope.cartT = cartTotal;
+    $scope.cartTax = (cartTotal * .0825).toFixed(2);
+    $scope.cartTotalWithTax = (cartTotal * 1.0825).toFixed(2);
     $scope.cartItems = cartItemArray;
 });

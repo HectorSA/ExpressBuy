@@ -20,7 +20,7 @@ indexApp.config(function ($routeProvider) {
         })
 
         .when('/addItem', {
-            templateUrl: 'app/aiService/addItem.html',
+            templateUrl: 'app/addItem/addItem.html',
             controller: 'addItemController'
         })
 
@@ -36,9 +36,6 @@ indexApp.config(function ($routeProvider) {
 });
 
 
-
-
-
 // Used on the index page
 indexApp.controller('indexController', function ($scope, $location) {
 
@@ -47,120 +44,4 @@ indexApp.controller('indexController', function ($scope, $location) {
     $scope.changeView = function (view) {
         $location.path(view);
     }
-});
-
-
-// Search on searches
-indexApp.controller('searchController', function ($scope, $routeParams, $filter) {
-    
-    searchCategory = $routeParams.searchedItem;
-
-    $scope.addToCart = function addTC(itemID) {
-        fauxcart.push(itemID);
-        console.log(fauxcart);
-        console.log(itemID)
-    }
-
-
-    // See if the search finds a match in the product category
-    var result = $filter('filter')(productsForSale,
-        { category: searchCategory },
-    );
-
-    // If there is no match look for a match in product name
-    if (result.length === 0) {
-        var result = $filter('filter')(productsForSale,
-            { name: searchCategory }
-        );
-    };
-
-    // If there is no match look for a match in product specs
-    if (result.length === 0) {
-        var result = $filter('filter')(productsForSale,
-            { specs: searchCategory }
-        );
-    };
-
-    $scope.itemsFS = result;
-
-});
-
-indexApp.controller('addItemController', function ($scope) {
-    $scope.categories = productsCategories;
-    console.log(productsCategories);
-});
-
-
-indexApp.controller('viewCartController', function ($scope, $filter, $location, $route) {
-
-    $scope.reloadRoute = function () {
-        $route.reload();
-    }
-
-    $scope.isEmpty = function () {
-        if (fauxcart.length > 0) {
-            return false; 
-        } else { // If empty disable = true
-            return true;
-        }
-    }
-  
-
-    $scope.removeFromCart = function removeFC(itemID) {
-        index = fauxcart.indexOf(itemID);
-        if (index !== -1) fauxcart.splice(index, 1);
-    }
-
-    // See if the search finds a match in the product category
-    var result = $filter('filter')(productsForSale,
-        { id: fauxcart},
-    );
-
-    cartItemArray = [];
-
-    for (var i = 0; i < fauxcart.length; i++) {
-        var result = $filter('filter')(productsForSale,
-            { id: fauxcart[i] },
-        );
-        console.log(result)
-        cartItemArray.push(result[0]);
-    }
-
-    $scope.changeView = function (view) {
-        $location.path(view);
-    }
-
-    console.log(cartItemArray);
-
-    $scope.cartItems = cartItemArray;
-});
-
-indexApp.controller('checkoutController', function ($scope, $filter) {
-    // See if the search finds a match in the product category
-    var result = $filter('filter')(productsForSale,
-        { id: fauxcart },
-    );
-
-    cartItemArray = [];
-    cartTotal = 0;
-
-    for (var i = 0; i < fauxcart.length; i++) {
-        var result = $filter('filter')(productsForSale,
-            { id: fauxcart[i] },
-        );
-        console.log(result);
-        cartItemArray.push(result[0]);
-
-        // Get the cost amount from the item
-        itemAmount = result[0].price
-
-        // Cost is a string so we got to convert to int
-        itemDollar = Number(itemAmount.replace(/[^0-9\.-]+/g, ""));
-
-        cartTotal += itemDollar;
-    }
-
-
-    $scope.cartT = cartTotal;
-    $scope.cartItems = cartItemArray;
 });

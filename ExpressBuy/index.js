@@ -33,6 +33,11 @@ indexApp.config(function ($routeProvider) {
             templateUrl: 'app/checkout/checkout.html',
             controller: 'checkoutController'
         })
+
+        .when('/login', {
+            templateUrl: 'app/login/login.html',
+            controller: 'loginController'
+        })
 });
 
 

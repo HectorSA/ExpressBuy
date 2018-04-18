@@ -126,6 +126,14 @@ html, body {
     border: 3px dotted rgba(0,0,0,0.1);
 }
 
+.registerForm {
+    margin: 4% auto;
+    padding: 30px;
+    width: 500px;
+    background-color: #eee;
+    border: 3px dotted rgba(0,0,0,0.1);
+}
+
 .form-signin-heading {
     text-align: center;
     margin-bottom: 30px;

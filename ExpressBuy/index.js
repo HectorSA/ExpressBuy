@@ -38,6 +38,11 @@ indexApp.config(function ($routeProvider) {
             templateUrl: 'app/login/login.html',
             controller: 'loginController'
         })
+
+        .when('/register', {
+            templateUrl: 'app/register/register.html',
+            controller: 'registerController'
+        })
 });
 
 

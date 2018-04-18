@@ -69,6 +69,10 @@ html, body {
     font-weight: 600;
 }
 
+.link {
+    color: #0645AD;
+}
+
 #signInOut {
     color: blue;
     font-size: large;
@@ -120,7 +124,7 @@ html, body {
 
 .form-signin {
     max-width: 420px;
-    padding: 30px 38px 66px;
+    padding: 30px 38px 26px;
     margin: 0 auto;
     background-color: #eee;
     border: 3px dotted rgba(0,0,0,0.1);
@@ -132,6 +136,10 @@ html, body {
     width: 500px;
     background-color: #eee;
     border: 3px dotted rgba(0,0,0,0.1);
+}
+
+.loginRegistration{
+    padding-top:15px;
 }
 
 .form-signin-heading {

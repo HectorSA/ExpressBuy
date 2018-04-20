@@ -9,7 +9,7 @@ indexApp.config(function ($routeProvider) {
 
         // route for the index page
         .when('/', {
-            templateUrl: 'app/expressbuy/ebTemplate.html',
+            templateUrl: 'app/startingPage/startingPage.html',
             controller: 'indexController'
         })
 

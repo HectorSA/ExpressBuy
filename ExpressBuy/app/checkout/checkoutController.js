@@ -1,4 +1,4 @@
-﻿indexApp.controller('checkoutController', function ($scope, $filter) {
+﻿indexApp.controller('checkoutController', function ($scope, $filter, $location) {
     // See if the search finds a match in the product category
     var result = $filter('filter')(productsForSale,
         { id: fauxcart },
@@ -23,6 +23,9 @@
         cartTotal += itemDollar;
     }
 
+    $scope.changeView = function (view) {
+        $location.path(view);
+    }
 
     $scope.cartT = cartTotal;
     $scope.cartTax = (cartTotal * .0825).toFixed(2);

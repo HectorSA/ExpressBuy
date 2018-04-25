@@ -43,6 +43,16 @@ indexApp.config(function ($routeProvider) {
             templateUrl: 'app/register/register.html',
             controller: 'registerController'
         })
+
+        .when('/purchased', {
+            templateUrl: 'app/purchasedPage/purchasedPage.html',
+            controller: 'purchasedController'
+        })
+
+        .when('/registered', {
+            templateUrl: 'app/registered/registered.html',
+            controller: 'registeredController'
+        })
 });
 
 

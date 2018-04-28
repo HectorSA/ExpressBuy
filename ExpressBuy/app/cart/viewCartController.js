@@ -29,7 +29,7 @@ indexApp.controller('viewCartController', function ($scope, $filter, $location, 
         var result = $filter('filter')(productsForSale,
             { id: fauxcart[i] },
         );
-        console.log(result)
+        //console.log(result)
         cartItemArray.push(result[0]);
     }
 
@@ -37,7 +37,7 @@ indexApp.controller('viewCartController', function ($scope, $filter, $location, 
         $location.path(view);
     }
 
-    console.log(cartItemArray);
+    //console.log(cartItemArray);
 
     $scope.cartItems = cartItemArray;
 });

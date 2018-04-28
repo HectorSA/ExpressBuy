@@ -57,10 +57,11 @@ indexApp.config(function ($routeProvider) {
 
 
 // Used on the index page
-indexApp.controller('indexController', function ($scope, $location) {
-
+indexApp.controller('indexController', function ($scope, $location, fauxLogin) {
+    
     $scope.categories = productsCategories;
-
+    $scope.firstName = fauxLogin.customerFirstName;
+    $scope.lastName = fauxLogin.customerLastName;
     $scope.changeView = function (view) {
         $location.path(view);
     }

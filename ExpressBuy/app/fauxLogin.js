@@ -23,7 +23,7 @@ indexApp.service('fauxLogin', function () {
     // Used to search for a user via email
     this.findUser = function (email) {
         for (var i = 0, len = this.users.length; i < len; i++) {
-            if (this.users[i].email.toLowerCase() === email) {
+            if (this.users[i].email.toLowerCase() === email.toLowerCase()) {
                 console.log('Match!!');
                 return this.users[i];
             }
@@ -42,9 +42,32 @@ indexApp.service('fauxLogin', function () {
         return self.currentUser;
     }
 
-    // Default no one is logged in
-    this.setCurUser(this.findUser('default'));
-    console.log(this.getCurUser())
+    this.login = function (email, password) {
+        user = this.findUser(email);
+
+        if (user != null && user.password === password) {
+            this.setCurUser(user);
+        } else {
+            console.log("Invalid login info");
+        }
+        
+    }
+
+    this.default = function () {
+        this.setCurUser(this.findUser('default'));
+        console.log(this.getCurUser())
+    }
+
+
+    // init to unlogged in user
+    count = 0;
+    if (count == 0) {
+        count++;
+        console.log(count);
+        this.default();
+    }
+
+
 
 
 });

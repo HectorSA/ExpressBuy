@@ -1,12 +1,12 @@
     <div class="loginWrapper">
-        <form action="" method="post" name="Login_Form" class="form-signin">
+        <form name="Login_Form" class="form-signin" ng-submit="login()">
             <h3 class="form-signin-heading">Welcome Back! Please Sign In</h3>
             <hr class="colorgraph"><br>
 
-            <input type="text" class="form-control" name="Email" placeholder="Email" required="" autofocus="" />
-            <input type="password" class="form-control" name="Password" placeholder="Password" required="" />
+            <input type="text" ng-model="email" class="form-control" name="Email" placeholder="Email" required="" autofocus="" />
+            <input type="password" ng-model="password" class="form-control" name="Password" placeholder="Password" required="" />
 
-            <button class="btn btn-lg btn-primary btn-block" name="Submit" value="Login" type="Submit">Login</button>
+            <button class="btn btn-lg btn-primary btn-block" type="Submit">Login</button>
             <div class="loginRegistration">
                 New to site? <span class="link" ng-click="changeView('register/')">Click here to register!</span>
             </div>

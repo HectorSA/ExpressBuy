@@ -1,4 +1,4 @@
-indexApp.controller('loginController', function ($scope, $rootScope, $location, fauxLogin) {
+indexApp.controller('loginController', function ($scope, $timeout, $rootScope, $location, fauxLogin) {
     $scope.changeView = function (view) {
         $location.path(view);
     }
@@ -6,20 +6,33 @@ indexApp.controller('loginController', function ($scope, $rootScope, $location, 
     $scope.email = '';
     $scope.password = '';
 
-    $scope.updateMenuBar = function () {
+    $scope.updateMenuBar = function (user) {
+        console.log("Menu U", user);
         if (fauxLogin.isLoggedIn()) {
             $rootScope.menuBarLogInTitle = "Welcome "+ user.firstName + "  ";
         } else {
             $rootScope.menuBarLogInTitle = 'Sign in or register';
         }
     }
+    
 
     // When user hits submit (login) this function runs
     $scope.login = function () {
         console.log('User clicked login', $scope.email, $scope.password);
-        fauxLogin.login($scope.email, $scope.password);
-        $scope.updateMenuBar();
-        //console.log("Current User:",fauxLogin.getCurUser());
+
+
+        user = fauxLogin.login($scope.email, $scope.password);
+        if (user === null) {
+            $scope.badLogin = true;
+            console.log("FALSE")
+        } else {
+            $scope.badLogin = false;
+            console.log("True")
+            $scope.updateMenuBar(user);
+            $timeout($scope.changeView("/"), 1000);
+
+        }
+
     };
 
 });

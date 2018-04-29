@@ -5,6 +5,10 @@
 
             <input type="text" ng-model="email" class="form-control" name="Email" placeholder="Email" required="" autofocus="" />
             <input type="password" ng-model="password" class="form-control" name="Password" placeholder="Password" required="" />
+            <div class="alert alert-danger" role="alert" ng-show="badLogin">
+                Bad Email / Password
+            </div>
+
 
             <button class="btn btn-lg btn-primary btn-block" type="Submit">Login</button>
             <div class="loginRegistration">

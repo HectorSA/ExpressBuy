@@ -45,8 +45,9 @@ indexApp.service('fauxLogin', function () {
 
         if (user != null && user.password === password) {
             this.setCurUser(user);
+            return user;
         } else {
-            console.log("Invalid login info");
+            return null;
         }
         
     }

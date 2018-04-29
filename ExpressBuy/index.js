@@ -57,7 +57,7 @@ indexApp.config(function ($routeProvider) {
 
 
 // Used on the index page
-indexApp.controller('indexController', function ($scope, $rootScope, $location, fauxLogin) {
+indexApp.controller('indexController', function ($scope, $rootScope, $location, $timeout, fauxLogin) {
 
     user = fauxLogin.getCurUser();
 

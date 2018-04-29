@@ -24,7 +24,6 @@ indexApp.service('fauxLogin', function () {
     this.findUser = function (email) {
         for (var i = 0, len = this.users.length; i < len; i++) {
             if (this.users[i].email.toLowerCase() === email.toLowerCase()) {
-                console.log('Match!!');
                 return this.users[i];
             }
         }
@@ -35,7 +34,6 @@ indexApp.service('fauxLogin', function () {
     // Change who is logged in
     this.setCurUser = function (user) {
         this.currentUser = user;
-        console.log(user)
     }
 
     this.getCurUser = function () {
@@ -53,21 +51,27 @@ indexApp.service('fauxLogin', function () {
         
     }
 
+
+
     this.default = function () {
         this.setCurUser(this.findUser('default'));
         console.log(this.getCurUser())
     }
 
-
-    // init to unlogged in user
+    // init to default user
     count = 0;
     if (count == 0) {
         count++;
-        console.log(count);
+        console.log("Init to default user");
         this.default();
     }
 
-
-
+    this.isLoggedIn = function () {
+        if (this.getCurUser().email === 'default') {
+            return false;
+        } else {
+            return true;
+        }
+    }
 
 });

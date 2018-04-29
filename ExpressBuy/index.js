@@ -57,13 +57,21 @@ indexApp.config(function ($routeProvider) {
 
 
 // Used on the index page
-indexApp.controller('indexController', function ($scope, $location, fauxLogin) {
+indexApp.controller('indexController', function ($scope, $rootScope, $location, fauxLogin) {
 
     user = fauxLogin.getCurUser();
 
     $scope.categories = productsCategories;
     $scope.firstName = user.lastName;
     $scope.lastName = user.firstName;
+
+    if (fauxLogin.isLoggedIn()) {
+        $rootScope.menuBarLogInTitle = "Welcome " + user.firstName + "  ";
+    } else {
+        $rootScope.menuBarLogInTitle = 'Sign in or register';
+    }
+    
+
     $scope.changeView = function (view) {
         $location.path(view);
     }

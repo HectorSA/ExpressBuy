@@ -29,6 +29,7 @@ indexApp.controller('loginController', function ($scope, $timeout, $rootScope, $
             $scope.badLogin = false;
             console.log("True")
             $scope.updateMenuBar(user);
+            $rootScope.showLogout = true;
             $timeout($scope.changeView("/"), 1000);
 
         }

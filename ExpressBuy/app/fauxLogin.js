@@ -13,6 +13,8 @@ indexApp.service('fauxLogin', function () {
         user.password = password;
 
         this.users.push(user);
+
+        return user;
     }
 
     // Add some default users
@@ -36,8 +38,8 @@ indexApp.service('fauxLogin', function () {
         this.currentUser = user;
     }
 
-    this.getCurUser = function () {
-        return self.currentUser;
+    this.getCurrentUser = function () {
+        return this.currentUser;
     }
 
     this.login = function (email, password) {
@@ -56,7 +58,7 @@ indexApp.service('fauxLogin', function () {
 
     this.default = function () {
         this.setCurUser(this.findUser('default'));
-        console.log(this.getCurUser())
+        console.log(this.getCurrentUser())
     }
 
     // init to default user
@@ -68,7 +70,9 @@ indexApp.service('fauxLogin', function () {
     }
 
     this.isLoggedIn = function () {
-        if (this.getCurUser().email === 'default') {
+        currUser = this.getCurrentUser();
+        console.log(currUser);
+        if (currUser.email === 'default') {
             return false;
         } else {
             return true;

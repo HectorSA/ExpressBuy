@@ -36,7 +36,9 @@
 
 
         <div class="pull-right">
-            <span id="signInOut" ng-click="changeView('login/')"> {{ menuBarLogInTitle }} &nbsp &nbsp &nbsp &nbsp</span>
+            <span id="signInOut" ng-click="changeView('login/')"> {{ menuBarLogInTitle }}</span>
+            <span id="logout" ng-show="showLogout" ng-click="logout()">(logout)</span>
+            <span>&nbsp &nbsp &nbsp &nbsp</span>
             <span id="viewCart" ng-click="changeView('cart/')">View Cart</span>
         </div>
     </nav>

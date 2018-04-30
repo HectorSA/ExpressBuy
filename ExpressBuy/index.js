@@ -57,19 +57,30 @@ indexApp.config(function ($routeProvider) {
 
 
 // Used on the index page
-indexApp.controller('indexController', function ($scope, $rootScope, $location, $timeout, fauxLogin) {
+indexApp.controller('indexController', function ($scope, $route, $rootScope, $location, $timeout, fauxLogin) {
 
-    user = fauxLogin.getCurUser();
+    user = fauxLogin.getCurrentUser();
 
     $scope.categories = productsCategories;
-    $scope.firstName = user.lastName;
-    $scope.lastName = user.firstName;
+    $scope.firstName = user.firstName;
+    $scope.lastName = user.lastName;
 
     if (fauxLogin.isLoggedIn()) {
         $rootScope.menuBarLogInTitle = "Welcome " + user.firstName + "  ";
     } else {
         $rootScope.menuBarLogInTitle = 'Sign in or register';
+        $rootScope.showLogout = false;
     }
+    
+    $scope.logout = function () {
+        fauxLogin.default();
+        $timeout($scope.changeView("/"), 1000);
+        $route.reload();
+    }
+
+   
+
+
     
 
     $scope.changeView = function (view) {

@@ -21,6 +21,7 @@
     <script src="app/register/registerController.js"></script>
     <script src="app/registered/registeredController.js"></script>
     <script src="app/purchasedPage/purchasedController.js"></script>
+    <script src="app/customerInfo/customerInfoController.js"></script>
     <script src="app/fauxLogin.js"></script>
 
 </head>
@@ -36,7 +37,8 @@
 
 
         <div class="pull-right">
-            <span id="signInOut" ng-click="changeView('login/')"> {{ menuBarLogInTitle }}</span>
+            <span id="signInOut" ng-hide="showLogout" ng-click="changeView('login/')"> {{ menuBarLogInTitle }}</span>
+            <span id="signInOut" ng-show="showLogout" ng-click="changeView('register/')"> {{ menuBarLogInTitle }}</span>
             <span id="logout" ng-show="showLogout" ng-click="logout()">(logout)</span>
             <span>&nbsp &nbsp &nbsp &nbsp</span>
             <span id="viewCart" ng-click="changeView('cart/')">View Cart</span>

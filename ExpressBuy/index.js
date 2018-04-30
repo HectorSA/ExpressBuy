@@ -53,6 +53,11 @@ indexApp.config(function ($routeProvider) {
             templateUrl: 'app/registered/registered.html',
             controller: 'registeredController'
         })
+
+        .when('/customerInfo', {
+            templateUrl: 'app/customerInfo/customerInfo.html',
+            controller: 'customerInfoController'
+        })
 });
 
 
@@ -77,11 +82,6 @@ indexApp.controller('indexController', function ($scope, $route, $rootScope, $lo
         $timeout($scope.changeView("/"), 1000);
         $route.reload();
     }
-
-   
-
-
-    
 
     $scope.changeView = function (view) {
         $location.path(view);

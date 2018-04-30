@@ -10,6 +10,8 @@ indexApp.controller('searchController', function ($scope, $routeParams, $filter)
     }
 
 
+
+
     // See if the search finds a match in the product category
     var result = $filter('filter')(productsForSale,
         { category: searchCategory },
@@ -28,6 +30,10 @@ indexApp.controller('searchController', function ($scope, $routeParams, $filter)
             { specs: searchCategory }
         );
     };
+
+    if (searchCategory === "*") {
+        var result = productsForSale;
+    }
 
     $scope.itemsFS = result;
 

@@ -1,6 +1,6 @@
-indexApp.controller('purchasedController', function ($scope, $location, $timeout) {
-    //#$timeout(function () {
-    //    $location.path("/");
-    //}, 3000);
+indexApp.controller('purchasedController', function ($scope, $location) {
+    $scope.changeView = function (view) {
+        $location.path(view);
+    }
 
 });

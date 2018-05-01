@@ -84,6 +84,17 @@
     margin-bottom: 20px;
 }
 
+.pointCursor {
+    cursor: pointer;
+}
+
+#logout {
+    cursor: pointer;
+    color: #000080;
+    font-size: large;
+    font-weight: 600;
+}
+
 .form-signin {
     max-width: 420px;
     padding: 30px 38px 26px;
@@ -179,8 +190,7 @@ input[type="password"] {
 }
 
 .head:hover {
-    background: gray !important;
-    cursor: initial;
+    background: #484848 !important;
 }
 
 #itemSelection li {
@@ -208,6 +218,6 @@ input[type="password"] {
 }
 
 .sidebarservices li:hover {
-    background: black;
+    background: #07395f;
     color: black;
 }

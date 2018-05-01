@@ -30,18 +30,20 @@
 <body ng-app="indexApp">
     <nav class="navbar navbar-light bg-light" ng-controller="indexController">
         <form class="form-inline">
-            <img ng-click="changeView('/')" style="margin-right:10px;" src="imgs/home.png" height="30" width="30">
+            <img class="pointCursor" ng-click="changeView('/')" style="margin-right:10px;" src="imgs/home.png" height="30" width="30">
             <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" ng-model="searchBarText">
             <button class="btn btn-outline-success my-2 my-sm-0" ng-click="changeView('search/'+searchBarText)">Search</button>
         </form>
 
 
         <div class="pull-right">
-            <span id="signInOut" ng-hide="showLogout" ng-click="changeView('login/')"> {{ menuBarLogInTitle }}</span>
-            <span id="signInOut" ng-show="showLogout" ng-click="changeView('register/')"> {{ menuBarLogInTitle }}</span>
-            <span id="logout" ng-show="showLogout" ng-click="logout()">(logout)</span>
+            <span id="signInOut" class="pointCursor" ng-hide="showLogout" ng-click="changeView('login/')"> login  </span>
+            <span ng-hide="showLogout">or</span>
+            <span id="signInOut" class="pointCursor" ng-hide="showLogout" ng-click="changeView('register/')"> register</span>
+
+            <span id="logout link" ng-show="showLogout" ng-click="logout()">{{ menuBarLogInTitle }} (logout)</span>
             <span>&nbsp &nbsp &nbsp &nbsp</span>
-            <span id="viewCart" ng-click="changeView('cart/')">View Cart</span>
+            <span id="viewCart" class="pointCursor" ng-click="changeView('cart/')">View Cart</span>
         </div>
     </nav>
     <div>

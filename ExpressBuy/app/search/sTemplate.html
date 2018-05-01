@@ -1,11 +1,12 @@
 <div>
     <div class="cardDiv" ng-repeat="item in itemsFS ">
+        <h3 style="text-align:center; margin:-16px;">{{item.sellingPoint}}</h3>
         <img ng-src={{item.img}} width="200" height="150">
         {{ item.name }}
         {{ item.price }}
         {{ item.specs }}
         <br />
-        <input type="submit" class="btn btn-warning" value="Add to Cart"  ng-click="addToCart(item.id);"/>
+        <input type="submit" class="btn btn-warning" value="Add to Cart" ng-click="addToCart(item.id);" />
     </div>
 </div>
 

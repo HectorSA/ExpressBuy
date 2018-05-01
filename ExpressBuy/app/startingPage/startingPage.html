@@ -1,6 +1,6 @@
  <div id="itemSelection">
     <ul class="sidebarservices">
-        <li ng-click="changeView('search/*')" class="head">View all products</li>
+        <li class="pointCursor head" ng-click="changeView('search/*')">View all products</li>
         <li align="center" ng-repeat="item in categories" ng-click="changeView('search/'+item.name)">{{ item.name }}</a></li>
     </ul>
 </div>

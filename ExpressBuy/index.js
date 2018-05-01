@@ -73,7 +73,6 @@ indexApp.controller('indexController', function ($scope, $route, $rootScope, $lo
     if (fauxLogin.isLoggedIn()) {
         $rootScope.menuBarLogInTitle = "Welcome " + user.firstName + "  ";
     } else {
-        $rootScope.menuBarLogInTitle = 'Sign in or register';
         $rootScope.showLogout = false;
     }
     

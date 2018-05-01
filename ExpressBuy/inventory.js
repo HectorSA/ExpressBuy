@@ -1,7 +1,10 @@
 productsCategories = [
     { name: 'SSD Drives' },
     { name: 'Monitors' },
-    { name: 'Graphics Cards' }
+    { name: 'Graphics Cards' },
+    { name: 'Keyboards'},
+    { name: 'Gaming Headsets'},
+    { name: 'Speakers'}
 ];
 
 productsForSale = [

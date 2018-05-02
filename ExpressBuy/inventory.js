@@ -130,9 +130,17 @@ productsForSale = [
         specs: '3584 CUDA Cores',
         img: 'imgs/geforce1080.jpeg'
     },
-
     {
         id: 14,
+        category: 'Graphics Cards',
+        name: 'EVGA GeForce GTX 1080 8GB ',
+        price: '$599.99',
+        sellingPoint: 'Mid-range',
+        specs: '2560 CUDA Cores',
+        img: 'imgs/evga1080.jpg'
+    },
+    {
+        id: 15,
         category: 'Graphics Cards',
         name: 'Founders Edition GTX 1070 8GB ',
         price: '$429.99',
@@ -140,9 +148,17 @@ productsForSale = [
         specs: '1920 CUDA Cores',
         img: 'imgs/1070.jpg'
     },
-
     {
-        id : 15,
+        id : 16,
+        category: 'Graphics Cards',
+        name: 'EVGA GeForce GTX 1050 Ti 4GB',
+        price: '$212.64',
+        sellingPoint: 'Economy',
+        specs: '768 CUDA Cores',
+        img: 'imgs/evga1050Ti.jpg'
+    },
+    {
+        id : 17,
         category: 'Graphics Cards',
         name: 'EVGA GTX 1060 6GB',
         price: '$199.00',
@@ -150,6 +166,16 @@ productsForSale = [
         specs: '1152 CUDA Cores',
         img: 'imgs/geforce1060.jpeg'
     },
+    {
+        id : 18,
+        category: 'Graphics Cards',
+        name: 'NVIDIA GeForce GT 710',
+        price: '$45.99',
+        sellingPoint: 'Cheapest',
+        specs: '192 CUDA Cores',
+        img: 'imgs/geforceGC.jpg'
+    },
+                   
 ];
 
 var fauxcart = [];

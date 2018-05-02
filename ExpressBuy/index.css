@@ -171,20 +171,23 @@ input[type="password"] {
 }
 
 #imageCarousel {
+    padding: 5px;
     text-align: center;
-    height: 200px;
     border: solid black 1px;
 }
+
 
 
 .sidebarservices {
     position: absolute;
     width: 25%;
     float: left;
+    font-size: 16pt;
+
 }
 
 .sidebarservices .head {
-    font-size: 15pt;
+    font-size: 16pt;
     background: gray;
     color: white;
 }
@@ -194,8 +197,7 @@ input[type="password"] {
 }
 
 #itemSelection li {
-    padding-top: 25px;
-    width: 100%;
+    width: 70%;
     height: 60px;
     border: solid black 1px;
     display: list-item;

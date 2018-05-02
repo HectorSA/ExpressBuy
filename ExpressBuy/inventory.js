@@ -394,110 +394,110 @@ productsForSale = [
     {
         id : 43,
         category: 'Processors',
-        name: '',
-        price: '',
+        name: 'Intel Core i9-7980XE',
+        price: '$1,890.87',
         sellingPoint: 'Best',
-        specs: '',
-        img: 'imgs/'
+        specs: '18 Cores 36 Threads\n\tUp to 4.20 GHz',
+        img: 'imgs/i9ex.jpg'
     },
     {
         id : 44,
         category: 'Processors',
-        name: '',
-        price: '',
+        name: 'Intel Core i7-6900K ',
+        price: '$995.00',
         sellingPoint: 'Mid-range',
-        specs: '',
-        img: 'imgs/'
+        specs: '8 Cores / 16 Threads\n\tUp to 3.70 GHz',
+        img: 'imgs/i7P.jpg'
     },
     {
         id : 45,
         category: 'Processors',
-        name: '',
-        price: '',
+        name: 'AMD RYZEN Threadripper',
+        price: '$899.99',
         sellingPoint: 'Mid-range',
-        specs: '',
-        img: 'imgs/'
+        specs: '16 cores / 32 threads\n\tUp to 4.0 GHz',
+        img: 'imgs/ryzenAMD.jpg'
     },
     {
         id : 46,
         category: 'Processors',
-        name: '',
-        price: '',
+        name: 'Intel Core i3-4330',
+        price: '$339.19',
         sellingPoint: 'Economy',
-        specs: '',
-        img: 'imgs/'
+        specs: '2 cores / 4 threads\n\tUp to 3.5 GHz',
+        img: 'imgs/i3P.jpg'
     },
     {
         id : 47,
         category: 'Processors',
-        name: '',
-        price: '',
+        name: 'AMD FX-4350',
+        price: '$249.89',
         sellingPoint: 'Economy',
-        specs: '',
-        img: 'imgs/'
+        specs: '4 cores / 4 threads\n\tUp to 4.3 GHz',
+        img: 'imgs/amdp.jpg'
     },
     {
         id : 48,
         category: 'Processors',
-        name: '',
-        price: '',
+        name: 'Intel Pentium E6300 ',
+        price: '$72.98\n',
         sellingPoint: 'Cheapest',
-        specs: '',
-        img: 'imgs/'
+        specs: '2cores, Up to 2.8 GHz',
+        img: 'imgs/intelPent.jpg'
     },
     {
         id : 49,
         category: 'Mice',
-        name: '',
-        price: '',
+        name: 'ASUS ROG Spatha',
+        price: '$152.15',
         sellingPoint: 'Best',
-        specs: '',
-        img: 'imgs/'
+        specs: '12 Button Control\n\t8200 dpi Sensor',
+        img: 'imgs/asusRogM.jpg'
     },
     {
         id : 50,
         category: 'Mice',
-        name: '',
-        price: '',
+        name: 'SteelSeries Rival 300 CS: GO ',
+        price: '$60.31',
         sellingPoint: 'Mid-range',
-        specs: '',
-        img: 'imgs/'
+        specs: '6 Button Control\n\t6500 dpi Sensor',
+        img: 'imgs/steelseriesM.jpg'
     },
     {
         id : 51,
         category: 'Mice',
-        name: '',
-        price: '',
+        name: 'Corsair Gaming M65',
+        price: '$49.99',
         sellingPoint: 'Mid-range',
-        specs: '',
-        img: 'imgs/'
+        specs: '8 Button Control\n\tHigh-Accuracy 12000 dpi Sensor',
+        img: 'imgs/corsair.jpg'
     },
     {
         id : 52,
         category: 'Mice',
-        name: '',
-        price: '',
+        name: 'Corsair Gaming HARPOON ',
+        price: '$28.24',
         sellingPoint: 'Economy',
-        specs: '',
-        img: 'imgs/'
+        specs: 'Six Fully-programmable Buttons\n\tHigh-Accuracy 6000 dpi Sensor',
+        img: 'imgs/corsairM.jpg'
     },
     {
         id : 53,
         category: 'Mice',
-        name: '',
-        price: '',
+        name: 'RAZER DeathAdder',
+        price: '$24.33',
         sellingPoint: 'Economy',
-        specs: '',
-        img: 'imgs/'
+        specs: '5 Buttons Control\n\tWired up tp 3500 dpi',
+        img: 'imgs/razerDeathA.jpg'
     },
     {
         id : 54,
         category: 'Mice',
-        name: '',
-        price: '',
+        name: 'Wired Gaming Mice ',
+        price: '$7.69',
         sellingPoint: 'Cheapest',
-        specs: '',
-        img: 'imgs/'
+        specs: '6 Buttons Control\n\tUSB Mouse up to 5500 dpi',
+        img: 'imgs/rosewill.jpg'
     },
 ];
 

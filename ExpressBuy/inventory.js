@@ -85,9 +85,26 @@ productsForSale = [
         specs: 'Screen Size 25"\n\t144hz Refresh',
         img: 'imgs/Z7Y57A9.jpg'
     },
-
     {
-        id : 9,
+        id: 9,
+        category: 'Monitors',
+        name: 'Viotek GN24C',
+        price: '$219.99',
+        sellingPoint: 'Mid-range',
+        specs: 'Screen Size Curved 24"\n\t144hz Refresh',
+        img: 'imgs/viotek.jpg'
+    },
+    {
+        id : 10,
+        category: 'Monitors',
+        name: 'Dell M27BLK',
+        price: '$179.99',
+        sellingPoint: 'Economy',
+        specs: 'Screen Size 27"\n\t6ms Response',
+        img: 'imgs/dellMon.jpg'
+    },
+    {
+        id : 11,
         category: 'Monitors',
         name: 'Asus VH238H',
         price: '$139.99',
@@ -95,11 +112,17 @@ productsForSale = [
         specs: 'Screen Size 23"\n\t60hz Refresh',
         img: 'imgs/AsusVH238H.jpeg'
     },
-
-
-
     {
-        id : 10,
+        id : 12,
+        category: 'Monitors',
+        name: 'Sceptre E225W-19203R',
+        price: '$88.97',
+        sellingPoint: 'Cheapest',
+        specs: 'Screen Size 22"\n\t75hz Refresh',
+        img: 'imgs/sceptre.jpg'
+    },
+    {
+        id : 13,
         category: 'Graphics Cards',
         name: 'Asus ROG Strix GTX 1080 Ti',
         price: '$799.00',
@@ -109,7 +132,7 @@ productsForSale = [
     },
 
     {
-        id: 11,
+        id: 14,
         category: 'Graphics Cards',
         name: 'Founders Edition GTX 1070 8GB ',
         price: '$429.99',
@@ -119,7 +142,7 @@ productsForSale = [
     },
 
     {
-        id : 12,
+        id : 15,
         category: 'Graphics Cards',
         name: 'EVGA GTX 1060 6GB',
         price: '$199.00',

@@ -3,4 +3,6 @@ indexApp.controller('purchasedController', function ($scope, $location) {
         $location.path(view);
     }
 
+
+
 });

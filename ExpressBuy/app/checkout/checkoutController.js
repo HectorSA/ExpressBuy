@@ -27,7 +27,12 @@
         $location.path(view);
     }
 
-    $scope.cartT = cartTotal;
+    $scope.clearCart = function () {
+        fauxcart = [];
+        console.log("Cleared Cart");
+    }
+
+    $scope.cartT = (cartTotal).toFixed(2);
     $scope.cartTax = (cartTotal * .0825).toFixed(2);
     $scope.cartTotalWithTax = (cartTotal * 1.0825).toFixed(2);
     $scope.cartItems = cartItemArray;

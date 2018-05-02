@@ -229,8 +229,276 @@ productsForSale = [
         specs: '3 Indicator Lights, Built-in Number\n\tPad and Full-Size Keyboard',
         img: 'imgs/hpkeyboard.jpg'
     },
-
-    
+    {
+        id : 25,
+        category: 'Gaming Headsets',
+        name: 'LucidSound - LS25',
+        price: '$79.99',
+        sellingPoint: 'Best',
+        specs: 'Multi-platform Compatibility',
+        img: 'imgs/lucidH.jpg'
+    },
+    {
+        id : 26,
+        category: 'Gaming Headsets',
+        name: 'HyperX Cloud Stinger',
+        price: '$69.49',
+        sellingPoint: 'Mid-range',
+        specs: 'Multi-platform Compatibility',
+        img: 'imgs/stingerH.jpg'
+    },
+    {
+        id : 27,
+        category: 'Gaming Headsets',
+        name: 'Razer Kraken',
+        price: '$39.00',
+        sellingPoint: 'Mid-range',
+        specs: 'Music & Gaming Compatibility',
+        img: 'imgs/krakenH.jpg'
+    },
+    {
+        id : 28,
+        category: 'Gaming Headsets',
+        name: 'G9000 LED Headset',
+        price: '$25.29',
+        sellingPoint: 'Economy',
+        specs: 'Tablet PC Notebook Compatible',
+        img: 'imgs/ledH.jpg'
+    },
+    {
+        id : 29,
+        category: 'Gaming Headsets',
+        name: 'Wireless Headphone Black',
+        price: '$25.07',
+        sellingPoint: 'Economy',
+        specs: 'Multi-platform Compatibility',
+        img: 'imgs/wirelessBlkH.jpg'
+    },
+    {
+        id :30,
+        category: 'Gaming Headsets',
+        name: '3.5mm Surround Stereo',
+        price: '$10.39',
+        sellingPoint: 'Cheapest',
+        specs: 'PC Compatible',
+        img: 'imgs/steroH.jpg'
+    },
+    {
+        id : 31,
+        category: 'Speakers',
+        name: 'Kanto YU2 ',
+        price: '$199.99',
+        sellingPoint: 'Best',
+        specs: 'Bamboo Crafted, 50 Watts',
+        img: 'imgs/kantoS.jpg'
+    },
+    {
+        id : 32,
+        category: 'Speakers',
+        name: 'Genius GX Gaming',
+        price: '$74.16',
+        sellingPoint: 'Mid-range',
+        specs: '38 Watts RMS',
+        img: 'imgs/gxGS.jpg'
+    },
+    {
+        id :33,
+        category: 'Speakers',
+        name: 'Logitech Z333',
+        price: '$64.99',
+        sellingPoint: 'Mid-range',
+        specs: 'Multi-platform Compatibility',
+        img: 'imgs/logitechZ333S.jpg'
+    },
+    {
+        id : 34,
+        category: 'Speakers',
+        name: 'GOgroove BassPULSE ',
+        price: '$49.99',
+        sellingPoint: 'Economy',
+        specs: 'LED Lighting, 20 Watts',
+        img: 'imgs/ledS.jpg'
+    },
+    {
+        id : 35,
+        category: 'Speakers',
+        name: 'Logitech Z213',
+        price: '$27.61',
+        sellingPoint: 'Economy',
+        specs: '7 Watts RMS',
+        img: 'imgs/logitechZ213.jpg'
+    },
+    {
+        id : 36,
+        category: 'Speakers',
+        name: 'Logitech S120 ',
+        price: '$12.50',
+        sellingPoint: 'Cheapest',
+        specs: '2.30 Watts RMS',
+        img: 'imgs/logitechS.jpg'
+    },
+    {
+        id : 37,
+        category: 'Routers',
+        name: 'ASUS AC5300',
+        price: '$297.49',
+        sellingPoint: 'Best',
+        specs: 'Up to 5334Mbps\n\tNearly 2Gbps Wired',
+        img: 'imgs/asusAC5300.jpg'
+    },
+    {
+        id : 38,
+        category: 'Routers',
+        name: 'ASUS RT-N16',
+        price: '$98.89',
+        sellingPoint: 'Mid-range',
+        specs: 'Up to 300Mbps\n\tPrinter & Media Server ',
+        img: 'imgs/asusR.jpg'
+    },
+    {
+        id : 39,
+        category: 'Routers',
+        name: 'Netgear R6250 V2 AC1600',
+        price: '$94.99',
+        sellingPoint: 'Mid-range',
+        specs: 'Smart Wi-Fi with App Support\n\tUp to 300 + 1300Mbps',
+        img: 'imgs/netgearSmart.jpg'
+    },
+    {
+        id : 40,
+        category: 'Routers',
+        name: 'NETGEAR WNR3500L-100NAS',
+        price: '$45.00\n',
+        sellingPoint: 'Economy',
+        specs: 'IEEE 802.11b/g/n up to 300 Mbps',
+        img: 'imgs/netgear.jpg'
+    },
+    {
+        id : 41,
+        category: 'Routers',
+        name: 'TP-Link Archer C900 ',
+        price: '$34.99',
+        sellingPoint: 'Economy',
+        specs: 'IEEE 802.11b/g/n 2.4 GHz \n\tUp to 900Mbps',
+        img: 'imgs/tplinkTL.jpg'
+    },
+    {
+        id : 42,
+        category: 'Routers',
+        name: 'TP-LINK TL-WR841N',
+        price: '$19.99\n',
+        sellingPoint: 'Cheapest',
+        specs: '802.11b/g/n 300 Mbps',
+        img: 'imgs/tpLink.jpg'
+    },
+    {
+        id : 43,
+        category: 'Processors',
+        name: '',
+        price: '',
+        sellingPoint: 'Best',
+        specs: '',
+        img: 'imgs/'
+    },
+    {
+        id : 44,
+        category: 'Processors',
+        name: '',
+        price: '',
+        sellingPoint: 'Mid-range',
+        specs: '',
+        img: 'imgs/'
+    },
+    {
+        id : 45,
+        category: 'Processors',
+        name: '',
+        price: '',
+        sellingPoint: 'Mid-range',
+        specs: '',
+        img: 'imgs/'
+    },
+    {
+        id : 46,
+        category: 'Processors',
+        name: '',
+        price: '',
+        sellingPoint: 'Economy',
+        specs: '',
+        img: 'imgs/'
+    },
+    {
+        id : 47,
+        category: 'Processors',
+        name: '',
+        price: '',
+        sellingPoint: 'Economy',
+        specs: '',
+        img: 'imgs/'
+    },
+    {
+        id : 48,
+        category: 'Processors',
+        name: '',
+        price: '',
+        sellingPoint: 'Cheapest',
+        specs: '',
+        img: 'imgs/'
+    },
+    {
+        id : 49,
+        category: 'Mice',
+        name: '',
+        price: '',
+        sellingPoint: 'Best',
+        specs: '',
+        img: 'imgs/'
+    },
+    {
+        id : 50,
+        category: 'Mice',
+        name: '',
+        price: '',
+        sellingPoint: 'Mid-range',
+        specs: '',
+        img: 'imgs/'
+    },
+    {
+        id : 51,
+        category: 'Mice',
+        name: '',
+        price: '',
+        sellingPoint: 'Mid-range',
+        specs: '',
+        img: 'imgs/'
+    },
+    {
+        id : 52,
+        category: 'Mice',
+        name: '',
+        price: '',
+        sellingPoint: 'Economy',
+        specs: '',
+        img: 'imgs/'
+    },
+    {
+        id : 53,
+        category: 'Mice',
+        name: '',
+        price: '',
+        sellingPoint: 'Economy',
+        specs: '',
+        img: 'imgs/'
+    },
+    {
+        id : 54,
+        category: 'Mice',
+        name: '',
+        price: '',
+        sellingPoint: 'Cheapest',
+        specs: '',
+        img: 'imgs/'
+    },
 ];
 
 var fauxcart = [];

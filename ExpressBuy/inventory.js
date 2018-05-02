@@ -4,7 +4,10 @@ productsCategories = [
     { name: 'Graphics Cards' },
     { name: 'Keyboards'},
     { name: 'Gaming Headsets'},
-    { name: 'Speakers'}
+    { name: 'Speakers'},
+    {name: 'Routers'},
+    {name: 'Processors'},
+    {name: 'Mice'}
 ];
 
 productsForSale = [
@@ -17,9 +20,17 @@ productsForSale = [
         specs: 'Sequential Read/Write\n\tUp to 560/530 MB/s',
         img: 'imgs/samsung860pro.jpg'
     },
-
     {
-        id: 8,
+        id : 2,
+        category: 'SSD Drives',
+        name: 'Crucial MX300 525GB',
+        price: '$149.99',
+        sellingPoint: 'Mid-range',
+        specs: 'Sequential reads/writes \n\tup to 530 / 510 MB/s ',
+        img: 'imgs/crucial2.jpg'
+    },
+    {
+        id: 3,
         category: 'SSD Drives',
         name: 'Samsung 850 Evo 500GB',
         price: '$139.99',
@@ -27,9 +38,17 @@ productsForSale = [
         specs: 'Sequential Read/Write\n\tUp to 550/520 MB/s',
         img: 'imgs/samsung850.jpg'
     },
-
     {
-        id : 2,
+        id : 4,
+        category: 'SSD Drives',
+        name: 'Kingston A400 SSD 240GB ',
+        price: '$67.29',
+        sellingPoint: 'Economy',
+        specs: '500MB/s Read and 350MB/s Write\n\tWith backwards compatibility',
+        img: 'imgs/kingston.jpg'
+    },
+    {
+        id : 5,
         category: 'SSD Drives',
         name: 'WD Blue SSD 250GB',
         price: '$58.99',
@@ -37,9 +56,18 @@ productsForSale = [
         specs: 'Sequential Read/Write\n\tUp to 555/510 MB/s',
         img: 'imgs/crucial.jpg'
     },
+    {
+        id : 6,
+        category: 'SSD Drives',
+        name: 'Silicon Power 128GB SSD',
+        price: '$37.99',
+        sellingPoint: 'Cheapest',
+        specs: 'R/W Up To 550/420MB/s A55\n\tSLC Cache Performance Boost',
+        img: 'imgs/siliconP.jpg'
+    },
 
     {
-        id : 3,
+        id : 7,
         category: 'Monitors',
         name: 'Alienware AW2518H',
         price: '$479.99',
@@ -49,7 +77,7 @@ productsForSale = [
     },
 
     {
-        id: 4,
+        id: 8,
         category: 'Monitors',
         name: 'OMEN by HP',
         price: '$279.99',
@@ -59,7 +87,7 @@ productsForSale = [
     },
 
     {
-        id : 5,
+        id : 9,
         category: 'Monitors',
         name: 'Asus VH238H',
         price: '$139.99',
@@ -71,7 +99,7 @@ productsForSale = [
 
 
     {
-        id : 6,
+        id : 10,
         category: 'Graphics Cards',
         name: 'Asus ROG Strix GTX 1080 Ti',
         price: '$799.00',
@@ -81,7 +109,7 @@ productsForSale = [
     },
 
     {
-        id: 7,
+        id: 11,
         category: 'Graphics Cards',
         name: 'Founders Edition GTX 1070 8GB ',
         price: '$429.99',
@@ -91,7 +119,7 @@ productsForSale = [
     },
 
     {
-        id : 9,
+        id : 12,
         category: 'Graphics Cards',
         name: 'EVGA GTX 1060 6GB',
         price: '$199.00',

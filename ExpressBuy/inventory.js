@@ -5,9 +5,9 @@ productsCategories = [
     { name: 'Keyboards'},
     { name: 'Gaming Headsets'},
     { name: 'Speakers'},
-    {name: 'Routers'},
-    {name: 'Processors'},
-    {name: 'Mice'}
+    { name: 'Routers'},
+    { name: 'Processors'},
+    { name: 'Mice'}
 ];
 
 productsForSale = [
@@ -175,7 +175,62 @@ productsForSale = [
         specs: '192 CUDA Cores',
         img: 'imgs/geforceGC.jpg'
     },
-                   
+    {
+        id : 19,
+        category: 'Keyboards',
+        name: 'Razer BlackWidow X \n\tTournament Edition',
+        price: '$104.49',
+        sellingPoint: 'Best',
+        specs: 'Gaming Oriented & Chroma Backlit',
+        img: 'imgs/razerKB.jpg'
+    },
+    {
+        id : 20,
+        category: 'Keyboards',
+        name: 'Logitech MK550 Wireless Wave',
+        price: '$48.99',
+        sellingPoint: 'Mid-Range',
+        specs: 'Ergonomic Wave Design, Integrated\n\tPalm Rest and Long Battery Life',
+        img: 'imgs/waveKB.jpg'
+    },
+    {
+        id: 21,
+        category: 'Keyboards',
+        name: 'HP Wireless Elite Keyboard v2 ',
+        price: '$40.37',
+        sellingPoint: 'Mid-range',
+        specs: 'Wireless with Low-Profile Keys\n\tand Stand-Alone Design',
+        img: 'imgs/hpKB.jpg'
+    },
+    {
+        id: 22,
+        category: 'Keyboards',
+        name: 'AUKEY Mechanical Keyboard ',
+        price: '$27.99',
+        sellingPoint: 'Economy',
+        specs: 'Outemu Blue switches, Minimalist\n\tEdgeless, with Matte Black Case',
+        img: 'imgs/aukey.jpg'
+    },
+    {
+        id : 23,
+        category: 'Keyboards',
+        name: 'DBPOWER Backlit Keyboard',
+        price: '$23.99',
+        sellingPoint: 'Economy',
+        specs: '3 Colors LED Backlit with a USB \n\tBraided Plug-and-Play Cable',
+        img: 'imgs/dppower.jpg'
+    },
+    {
+        id : 24,
+        category: 'Keyboards',
+        name: 'HP Wired USB Keyboard',
+        price: '$10.00',
+        sellingPoint: 'Cheapest',
+        specs: '3 Indicator Lights, Built-in Number\n\tPad and Full-Size Keyboard',
+        img: 'imgs/hpkeyboard.jpg'
+    },
+
+    
 ];
 
 var fauxcart = [];

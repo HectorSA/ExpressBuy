@@ -7,7 +7,7 @@ productsCategories = [
     { name: 'Speakers'},
     { name: 'Routers'},
     { name: 'Processors'},
-    { name: 'Mice'}
+    { name: 'Mouses'}
 ];
 
 productsForSale = [
@@ -447,7 +447,7 @@ productsForSale = [
     },
     {
         id : 49,
-        category: 'Mice',
+        category: 'Mouses',
         name: 'ASUS ROG Spatha',
         price: '$152.15',
         sellingPoint: 'Best',
@@ -456,7 +456,7 @@ productsForSale = [
     },
     {
         id : 50,
-        category: 'Mice',
+        category: 'Mouses',
         name: 'SteelSeries Rival 300 CS: GO ',
         price: '$60.31',
         sellingPoint: 'Mid-range',
@@ -465,7 +465,7 @@ productsForSale = [
     },
     {
         id : 51,
-        category: 'Mice',
+        category: 'Mouses',
         name: 'Corsair Gaming M65',
         price: '$49.99',
         sellingPoint: 'Mid-range',
@@ -474,7 +474,7 @@ productsForSale = [
     },
     {
         id : 52,
-        category: 'Mice',
+        category: 'Mouses',
         name: 'Corsair Gaming HARPOON ',
         price: '$28.24',
         sellingPoint: 'Economy',
@@ -483,7 +483,7 @@ productsForSale = [
     },
     {
         id : 53,
-        category: 'Mice',
+        category: 'Mouses',
         name: 'RAZER DeathAdder',
         price: '$24.33',
         sellingPoint: 'Economy',
@@ -492,8 +492,8 @@ productsForSale = [
     },
     {
         id : 54,
-        category: 'Mice',
-        name: 'Wired Gaming Mice ',
+        category: 'Mouses',
+        name: 'Wired Gaming Mouse ',
         price: '$7.69',
         sellingPoint: 'Cheapest',
         specs: '6 Buttons Control\n\tUSB Mouse up to 5500 dpi',

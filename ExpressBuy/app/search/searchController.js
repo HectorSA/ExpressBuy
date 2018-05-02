@@ -31,6 +31,13 @@ indexApp.controller('searchController', function ($scope, $routeParams, $filter)
         );
     };
 
+    // If there is no match look for a match in product selling point
+    if (result.length === 0) {
+        var result = $filter('filter')(productsForSale,
+            { sellingPoint: searchCategory }
+        );
+    };
+
     if (searchCategory === "*") {
         var result = productsForSale;
     }
